@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * handle_print - prints an argument hased on its type
- * @int: Formatted string in wich to print the arguments.
- * @list: List of arguments to be printed.
- * @ind: ind.
- * @bufferr: Buffer array to handle print.
- * @flags: calculates active flags
- * @width: get width
- * @precision: precision specification
- * @size: size specifier
+ * handle_print - arguments to be print
+ * @int: the string format to print arguments
+ * @list: arguments of lisit to print
+ * @ind: the ind
+ * @bufferr: handle print by buffer array
+ * @flags: the flags that active to calculates
+ * @width: width of 
+ * @precision: specification of precision
+ * @size: specifier of size
  * Return: 1 or 2
  */
 

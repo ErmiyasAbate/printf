@@ -1,15 +1,16 @@
 #include "main.h"
 
 /******* PRINT UNSIGNED NUMBER *******/
+
 /**
- * print_unsigned - prints an unsigned number
- * @types: List a of arguments
- * @buffer: Buffer array to handle print
- * @flags: Calculates active flags
+ * print_unsigned - to prints an unsigned number
+ * @types: the list of arguments
+ * @buffer: buffer array to handle print
+ * @flags: to calculates active flags
  * @width: get width
- * @precision: precison specification
- * @size: size specifier
- * Return: Number of chars printed.
+ * @precision: specification of precision
+ * @size: specifier of size
+ * Return: Number of charcters printed
  */
 
 int print_unsigned(va_list types, char buffer[], int flags, int width, int precision, int size)
@@ -37,10 +38,11 @@ int print_unsigned(va_list types, char buffer[], int flags, int width, int preci
 }
 
 /******* PRINT UNSIGNED NUMBER IN OCTAL *******/
+
 /**
- * print_octal - prints an unsigned number in octal notation
- * @types: Lista  of arguments
- * @buffe: Buffer array to handle print
+ * print_octal - it prints an unsigned number in octal notation
+ * @types: the list  of arguments
+ * @buffe: the buffer array to handle print
  * @flags: Calculates active flags
  * @width: get width
  * @precision: precision specification
